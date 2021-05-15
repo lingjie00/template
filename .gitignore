@@ -6,6 +6,7 @@ notebooks/.ipynb_checkpoints/*
 
 # ignore python cache
 notebooks/__pycache__/*
+__pycache__/
 
 # ignore swap files
 *.swp
