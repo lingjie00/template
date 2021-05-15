@@ -1,7 +1,7 @@
 # {{cookiecutter.repo_name}}
 
-[![package](https://github.com/lingjie00/template/actions/workflows/project-actions.yml/badge.svg)](https://github.com/lingjie00/template/actions/workflows/project-actions.yml)
-[![Docker](https://github.com/lingjie00/template/actions/workflows/docker-actions.yml/badge.svg)](https://github.com/lingjie00/template/actions/workflows/docker-actions.yml)
+[![package]({{cookiecutter.url}}/actions/workflows/project-actions.yml/badge.svg)]({{cookiecutter.url}}/actions/workflows/project-actions.yml)
+[![Docker]({{cookiecutter.url}}/actions/workflows/docker-actions.yml/badge.svg)]({{cookiecutter.url}}/actions/workflows/docker-actions.yml)
 
 # Project overview
 
