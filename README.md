@@ -1,4 +1,7 @@
 # Template
+
+![workflow](https://github.com/lingjie00/template/blob/main/.github/workflows/github-actions-demo.yml)
+
 a template repo for projects
 
 You can modify this README.md to highlight:
