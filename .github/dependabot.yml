@@ -17,6 +17,9 @@ updates:
       prefix: "pip prod"
       prefix-development: "pip dev"
       include: "scope"
+    # ignore local package
+    ignore:
+      - dependency-name: "project"
   - package-ecosystem: "docker"
     # Look for a `Dockerfile`
     directory: "/"
