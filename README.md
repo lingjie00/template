@@ -1,4 +1,7 @@
 # Template
+
+[![Testing package](https://github.com/lingjie00/template/actions/workflows/github-actions-demo.yml/badge.svg?branch=main)](https://github.com/lingjie00/template/actions/workflows/github-actions-demo.yml)
+
 a template repo for projects
 
 You can modify this README.md to highlight:
