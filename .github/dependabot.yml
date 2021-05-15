@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "pip"
-    directory: "/"
+    directory: "/src"
     # Weekly update
     schedule:
       interval: "weekly"
@@ -16,4 +16,16 @@ updates:
     commit-message:
       prefix: "pip prod"
       prefix-development: "pip dev"
+      include: "scope"
+  - package-ecosystem: "docker"
+    # Look for a `Dockerfile`
+    directory: "/"
+    # Check for weekly update
+    schedule:
+      interval: "weekly"
+    # Include a list of updated dependencies
+    # with a prefix determined by the dependency group
+    commit-message:
+      prefix: "docker prod"
+      prefix-development: "docker dev"
       include: "scope"
