@@ -19,7 +19,7 @@ updates:
       include: "scope"
     # ignore local package
     ignore:
-      - dependency-name: "project"
+      - dependency-name: "."
   - package-ecosystem: "docker"
     # Look for a `Dockerfile`
     directory: "/"
