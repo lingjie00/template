@@ -1,6 +1,7 @@
 # Template
 
-[![Testing package](https://github.com/lingjie00/template/actions/workflows/github-actions-demo.yml/badge.svg?branch=main)](https://github.com/lingjie00/template/actions/workflows/github-actions-demo.yml)
+[![package](https://github.com/lingjie00/template/actions/workflows/project-actions.yml/badge.svg)](https://github.com/lingjie00/template/actions/workflows/project-actions.yml)
+[![Docker](https://github.com/lingjie00/template/actions/workflows/docker-actions.yml/badge.svg)](https://github.com/lingjie00/template/actions/workflows/docker-actions.yml)
 
 a template repo for projects
 
