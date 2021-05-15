@@ -1,4 +1,4 @@
-name: Testing docker
+name: Docker
 on:
   push:
     branches: [main]

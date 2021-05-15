@@ -1,4 +1,4 @@
-name: Testing package
+name: package
 on:
   push:
     branches: [main]
