@@ -7,8 +7,10 @@ version: 2
 updates:
   - package-ecosystem: "pip"
     directory: "/"
+    # Weekly update
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "sunday"
     # Include a list of updated dependencies
     # with a prefix determined by the dependency group
     commit-message:
