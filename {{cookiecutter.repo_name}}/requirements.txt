@@ -6,4 +6,3 @@ seaborn==0.11.1
 flake8==3.9.0
 pytest==6.2.3
 coverage==5.5
-.
