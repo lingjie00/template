@@ -9,13 +9,11 @@ up-stream with GitHub.
 
 # Create project with cookiecutter
 
-Install cookiecutter
 ```bash
+# Install cookiecutter
 conda install cookiecutter
-```
 
-create folder with cookiecutter
-```bash
+# create folder with cookiecutter
 cookiecutter https://github.com/lingjie00/template/tree/cookiecutter
 ```
 
@@ -29,29 +27,17 @@ create a repo in GitHub without any files
 change dir to project folder created with cookiecutter
 ```bash
 cd <project-folder>
-```
 
-init git
-```bash
+# init git
 git init
-```
-```bash
 git add .
-```
-```bash
 git commit -m "init"
-```
-```bash
 git branch -M main
-```
 
-link with GitHub
-```bash
+# link with GitHub
 git remote add origin <project-url>
-```
 
-push
-```bash
+# push
 git push -u origin main
 ```
 
