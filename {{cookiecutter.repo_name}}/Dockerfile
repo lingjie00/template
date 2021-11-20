@@ -1,9 +1,9 @@
 FROM python:3.10
 
-WORKDIR /code
+WORKDIR /docker_deployment
 
 COPY . .
 
-RUN pip install -r requirements.txt
+RUN pip install -r requirements/dev.txt
 
 CMD ["python", "{{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}.py"]
