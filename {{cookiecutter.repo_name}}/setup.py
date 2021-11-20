@@ -21,7 +21,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src"),
+    package_dir={"": "{{cookiecutter.repo_name}}"},
+    packages=setuptools.find_packages(where="{{cookiecutter.repo_name}}"),
     python_requires=">=3.8"
 )

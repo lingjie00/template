@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.10
 
 WORKDIR /code
 
@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-CMD ["python", "src/{{cookiecutter.repo_name}}/main/main.py"]
+CMD ["python", "{{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}.py"]

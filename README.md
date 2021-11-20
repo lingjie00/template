@@ -42,3 +42,11 @@ git push -u origin main
 ```
 
 Now you have both local machine and GitHub repo set up!
+
+# Export requirement
+
+You can export your required packages with pip list
+
+```{bash}
+pip list --format=freeze > requirement.txt
+```

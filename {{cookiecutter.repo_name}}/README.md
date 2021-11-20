@@ -7,55 +7,24 @@
 
 {{cookiecutter.short_description}}
 
-# Methodology
+# Folder structure
 
-Please refer to /docs
-
-# Code, Notebook examples
-
-Please refer to /notebooks
-
-# Datasets
-
-Please upload data to /data
-
-Take note of privacy and copyrights.
-
-# Statis resources
-
-For storing static resources such as images, graphs etc
-
-Please upload to /res
-
-# Package
-
-Please upload to /src
+- [docs](/docs): includes the methodology and documentations 
+- [notebooks](/notebooks): includes sample codes in jupyter notebooks format
+- [{{cookiecutter.repo_name}}]: source codes
 
 # Local development
 
 install [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 and create new virtual environment
 
-create new environment, replace ```{{cookiecutter.repo_name}}``` with the env name
 ```bash
-conda create -n {{cookiecutter.repo_name}} python==3.9
-```
+# create new environment, replace ```{{cookiecutter.repo_name}}``` with the env name
+conda create -n {{cookiecutter.repo_name}} python==3.10
 
-activate the new environment
-```bash
+# activate the new environment
 conda activate {{cookiecutter.repo_name}}
-```
 
-install essential packages and this repo package
-```bash
+# install essential packages and this repo package
 pip install -r requirements.txt
 ```
-
-
-# Reprodue code
-
-Please include requirements.txt
-```python
-conda list --export > requirements.txt
-```
-
