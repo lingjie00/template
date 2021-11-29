@@ -6,5 +6,5 @@ seaborn
 flake8
 pytest
 coverage
-python-language-server[all]
+python-lsp-server[all]
 jupyter-ascending
