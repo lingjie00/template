@@ -1,8 +1,6 @@
 pandas
 notebook
-scipy
 matplotlib
-seaborn
 flake8
 pytest
 coverage

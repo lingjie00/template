@@ -14,7 +14,7 @@ up-stream with GitHub.
 conda install cookiecutter
 
 # create folder with cookiecutter
-cookiecutter https://github.com/lingjie00/template/tree/cookiecutter
+cookiecutter https://github.com/lingjie00/template
 ```
 
 follow the instructions and create your own project folder
