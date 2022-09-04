@@ -7,7 +7,9 @@ exclude =
     # There's no value in checking cache directories
     __pycache__,
 # set the max text length
-max-line-length = 80
-max-doc-length = 80
+max-line-length = 100
+max-doc-length = 100
 # set docs string convention
 docstring-convention=numpy
+# set default quotes
+inline-quotes = double
