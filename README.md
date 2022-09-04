@@ -42,6 +42,16 @@ git push -u origin main
 
 Now you have both local machine and GitHub repo set up!
 
+# Install requirement
+
+Installing requirements can be done via either pip or conda
+
+```{python}
+pip install -r requirement.txt
+
+conda install --file requirements.txt
+```
+
 # Export requirement
 
 You can export your required packages with pip list

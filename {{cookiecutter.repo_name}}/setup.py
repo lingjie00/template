@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setuptools.setup(
     name="{{cookiecutter.repo_name}}",
-    version="0.0.1",
+    user_scm_version=True,
     author="{{cookiecutter.name}}",
     author_email="{{cookiecutter.email}}",
     description="{{cookiecutter.short_description}}",
@@ -23,5 +23,7 @@ setuptools.setup(
     ],
     package_dir={"": "{{cookiecutter.repo_name}}"},
     packages=setuptools.find_packages(where="{{cookiecutter.repo_name}}"),
-    python_requires=">=3.8"
+    python_requires=">=3.8",
+    setup_requires=["setuptools_scm"],
+    license="MIT"
 )
