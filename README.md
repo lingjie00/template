@@ -1,10 +1,9 @@
 # README
 
-This repo contains the template I use for my
-personal projects.
+This repo contains the template I use for my personal projects.
 
-Please follow the instructions to create new
-project folder with cookiecutter and then link
+Please follow the instructions to create new project folder with
+[cookiecutter](https://github.com/cookiecutter/cookiecutter) and then link
 up-stream with GitHub.
 
 # Create project with cookiecutter
