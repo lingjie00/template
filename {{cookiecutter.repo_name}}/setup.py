@@ -1,6 +1,9 @@
 """Setup."""
 import setuptools
 
+with open("requirements.txt") as f:
+    required = f.read().splitlines()
+
 with open("README.md", "r", encoding="utf-8") as f:
     long_desc = f.read()
 
@@ -25,5 +28,6 @@ setuptools.setup(
     packages=setuptools.find_packages(where="{{cookiecutter.repo_name}}"),
     python_requires=">=3.8",
     setup_requires=["setuptools_scm"],
+    install_requires=required,
     license="MIT"
 )
