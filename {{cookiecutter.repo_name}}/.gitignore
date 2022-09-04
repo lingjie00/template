@@ -1,12 +1,14 @@
 # ignore system files
-.DS_Store
+*/.DS_Store
 
 # ignore notebook checkpoints
-notebooks/.ipynb_checkpoints/*
+*/.ipynb_checkpoints/*
 
 # ignore python cache
-notebooks/__pycache__/*
-__pycache__/
+*/__pycache__/*
 
 # ignore swap files
-*.swp
+*/*.swp
+
+# ignore data folder
+data/

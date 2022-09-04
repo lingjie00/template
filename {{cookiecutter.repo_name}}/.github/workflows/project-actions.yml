@@ -1,3 +1,5 @@
+# runs check on package
+---
 name: package
 on:
   push:
@@ -12,7 +14,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: [3.9, 3.10]
+        python-version: [3.8, 3.9, 3.10]
 
     steps:
       - uses: actions/checkout@v2
@@ -24,7 +26,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install flake8 pytest
-          if [ -f requirements/dev.txt ]; then pip install -r requirements/dev.txt; fi
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: install package
+        run: |
+          pip install .
       - name: Lint with flake8
         run: |
           # stop if there are Python syntax errors or undefined names
@@ -34,4 +39,3 @@ jobs:
       - name: Test with pytest and coverage
         run: |
           coverage run -m pytest
-

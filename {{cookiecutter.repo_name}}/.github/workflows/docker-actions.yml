@@ -1,3 +1,5 @@
+# runs docker actions
+---
 name: Docker
 on:
   push:
@@ -11,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     services:
       registry:
-          image: registry:2
-          ports:
-            - 5000:5000
+        image: registry:2
+        ports:
+          - 5000:5000
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -32,4 +34,3 @@ jobs:
       - name: Inspect
         run: |
           docker buildx imagetools inspect localhost:5000/name/app:latest
-
