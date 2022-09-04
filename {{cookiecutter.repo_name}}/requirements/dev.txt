@@ -6,7 +6,7 @@ scipy
 pandas
 
 # notebook
-jupyter-notebook
+jupyter
 
 # visualisation
 matplotlib
