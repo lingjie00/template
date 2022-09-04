@@ -6,3 +6,8 @@ exclude =
     .git,
     # There's no value in checking cache directories
     __pycache__,
+# set the max text length
+max-line-length = 80
+max-doc-length = 80
+# set docs string convention
+docstring-convention=numpy
