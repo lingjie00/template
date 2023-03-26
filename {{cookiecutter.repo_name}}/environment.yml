@@ -1,0 +1,9 @@
+# create env: conda env create --file environment.yml
+---
+name: {{cookiecutter.repo_name}}
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - -r requirements.txt
+      - -r requirements-dev.txt
