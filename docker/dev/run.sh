@@ -3,7 +3,7 @@
 # update config
 cd $HOME/.dotfiles/
 
-pip pull
+git pull
 
 # change to code folder
 cd /code/
