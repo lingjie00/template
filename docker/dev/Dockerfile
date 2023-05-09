@@ -47,4 +47,10 @@ WORKDIR /code/
 
 COPY run.sh /run.sh
 
+###################
+# Set environment #
+###################
+
+ENV EDITOR $(which nvim)
+
 CMD ["bash", "/run.sh"]
