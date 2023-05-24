@@ -2,7 +2,7 @@
 # Install packages #
 ####################
 
-FROM continuumio/miniconda3:latest AS package
+FROM continuumio/miniconda3:master AS package
 
 COPY install/package.sh /tmp/install/package.sh
 
