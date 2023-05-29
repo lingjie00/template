@@ -7,8 +7,9 @@ git pull
 
 # change to code folder
 cd /code/
+git config --global --add safe.directory /code
 
-if [ -f "setup.py" ]; then
+if [ -f "setup.py" ] || [ -f "pyproject.toml" ]; then
     pip install -e .
 fi
 
