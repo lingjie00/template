@@ -8,6 +8,8 @@ git pull
 # change to code folder
 cd /code/
 git config --global --add safe.directory /code
+# stores credential locally
+git config --global credential.helper cache
 
 if [ -f "setup.py" ] || [ -f "pyproject.toml" ]; then
     pip install -e .
