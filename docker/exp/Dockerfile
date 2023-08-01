@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook:python-3.8
+FROM jupyter/scipy-notebook:python-3.9
 
 USER $NB_UID
 

@@ -27,7 +27,7 @@ RUN bash /tmp/install/neovim.sh
 FROM neovim AS python
 
 # set the python version to be used
-ARG PYTHON_VERSION=3.8
+ARG PYTHON_VERSION=3.9
 
 COPY install/python.sh /tmp/install/python.sh
 
